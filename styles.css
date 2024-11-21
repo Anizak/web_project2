@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background{
+    width: 100%;
+    height: 1000px;
+    /* background-color: rgb(193, 86, 86); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider {
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+}
+
+ #images{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#previous{
+  width: 50px;
+  height: 50px;
+}
+
+.background .fa-arrow-circle-left{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+#next{
+  width: 50px;
+  height: 50px;
+}
